@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"./bot"
-	"./config"
+	"github.com/jmrlgg/godiscord/bot"
+	"github.com/jmrlgg/godiscord/config"
 )
 
 func main() {

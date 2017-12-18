@@ -3,8 +3,8 @@ package bot
 import (
 	"fmt"
 
-	"../config"
 	"github.com/bwmarrin/discordgo"
+	"github.com/jmrlgg/godiscord/config"
 )
 
 // const token string = "Mzg2MjYzNTUxNTA2OTA3MTQ5.DQNYFw.nloki1PSCCF-a9m74iQM8fGdcGg"
@@ -53,7 +53,7 @@ func messageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 
 		if m.Content[1:] == "owner" {
 			fmt.Println("Owner COmmand executred")
-			_, _ = s.ChannelMessageSend(m.ChannelID, "tehmass : @jmrlgg"+m.Content[1:])
+			_, _ = s.ChannelMessageSend(m.ChannelID, "tehmass : @jmrlgg "+m.Content[1:])
 
 		}
 	}
