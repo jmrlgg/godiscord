@@ -19,8 +19,13 @@ A community driven golang Discord bot!
 
 ```
 {
-    "Token": "add Token here",
-    "BotPrefix": "!"
+    "Token": "Discord Token",
+    "BotPrefix": "Bot Prefix",
+    "ClientID": "Reddit Client ID",
+    "ClientSecret": "Reddit Client Secret",
+    "RedditUser": "Reddit User",
+    "RedditPass": "Reddit Pass"
+
 }
 ```
 
