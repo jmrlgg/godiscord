@@ -31,3 +31,8 @@ A community driven golang Discord bot!
 
 [![HitCount](http://hits.dwyl.io/jmrlgg/godiscord.svg)](http://hits.dwyl.io/jmrlgg/godiscord)
 
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/jmrlgg/godiscord/badge.svg?style=beer-square)](https://beerpay.io/jmrlgg/godiscord)  [![Beerpay](https://beerpay.io/jmrlgg/godiscord/make-wish.svg?style=flat-square)](https://beerpay.io/jmrlgg/godiscord?focus=wish)
