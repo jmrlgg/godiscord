@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/jmrlgg/godiscord.png?branch=master)](https://travis-ci.org/jmrlgg/godiscord) [![Go Report Card](https://goreportcard.com/badge/github.com/jmrlgg/godiscord)](https://goreportcard.com/report/github.com/jmrlgg/godiscord) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/jmrlgg/godiscord/issues)
+[![Build Status](https://travis-ci.org/jmrlgg/godiscord.png?branch=master)](https://travis-ci.org/jmrlgg/godiscord) [![Go Report Card](https://goreportcard.com/badge/github.com/jmrlgg/godiscord)](https://goreportcard.com/report/github.com/jmrlgg/godiscord) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/jmrlgg/godiscord/issues) [![Fragmedia Discord](https://yolodigi.com/imgs/fmedia_invite.png)](https://discord.me/fragmedia)
 
 
 | Option | Information |
