@@ -2,9 +2,11 @@ package bot
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/bwmarrin/discordgo"
 	"github.com/jmrlgg/godiscord/config"
+	"github.com/jmrlgg/godiscord/reddit"
 )
 
 // const token string = "Mzg2MjYzNTUxNTA2OTA3MTQ5.DQNYFw.nloki1PSCCF-a9m74iQM8fGdcGg"
@@ -51,10 +53,17 @@ func messageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 			return
 		}
 
-		if m.Content[1:] == "owner" {
+		if m.Content[1:] == "tv" {
 			fmt.Println("Owner COmmand executred")
 			_, _ = s.ChannelMessageSend(m.ChannelID, "tehmass : @jmrlgg "+m.Content[1:])
 
+		}
+
+		if strings.Contains(m.Content, config.BotPrefix+"tv ") {
+			RedditParms := m.Content[4:]
+			fmt.Println(m.Content[4:])
+			//_, _ = s.ChannelMessageSend(m.ChannelID, m.Content[4:])
+			reddit.Search(RedditParms, s, m)
 		}
 	}
 }

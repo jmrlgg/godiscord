@@ -6,20 +6,29 @@ import (
 	"io/ioutil"
 )
 
+// Token Public variables
 var (
-	// Public variables
-	Token     string
-	BotPrefix string
+	Token        string // GODiscord App Token
+	BotPrefix    string // BotPrefix GODiscord Bot Prefix
+	ClientID     string // Reddit APP Client ID
+	ClientSecret string // Reddit APP Client Secret
+	RedditUser   string // Reddit UserName
+	RedditPass   string // Reddit Password
 
 	// Private variables
 	config *configStruct
 )
 
 type configStruct struct {
-	Token     string `json:"Token"`
-	BotPrefix string `json:"BotPrefix"`
+	Token        string `json:"Token"`
+	BotPrefix    string `json:"BotPrefix"`
+	ClientID     string `json:"ClientID"`
+	ClientSecret string `json:"ClientSecret"`
+	RedditUser   string `json:"RedditUser"`
+	RedditPass   string `json:"RedditPass"`
 }
 
+// ReadConfig for json File
 func ReadConfig() error {
 	fmt.Println("Reading config file...")
 
@@ -41,6 +50,10 @@ func ReadConfig() error {
 
 	Token = config.Token
 	BotPrefix = config.BotPrefix
+	ClientID = config.ClientID
+	ClientSecret = config.ClientSecret
+	RedditUser = config.RedditUser
+	RedditPass = config.RedditPass
 
 	return nil
 }
