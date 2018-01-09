@@ -11,8 +11,8 @@
 
   
 
-# godiscord
-GOlang Discord bot. Currently brainstorming for details on full uses
+# GO Discord
+A community driven golang Discord bot! 
 
 
 1. Create config.json
