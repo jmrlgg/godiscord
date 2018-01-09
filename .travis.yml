@@ -1,3 +1,3 @@
-language: gogo en
+language: GO
 go:
   - 1.9.x
